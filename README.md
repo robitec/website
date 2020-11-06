@@ -1,4 +1,4 @@
-# bmauri-website [![Build Status](https://travis-ci.org/maguri/website.svg?branch=master)](https://travis-ci.org/robitec/website)
+# robitec-website [![Build Status](https://travis-ci.org/maguri/website.svg?branch=master)](https://travis-ci.org/robitec/website)
 
 # Forestry
 - https://app.forestry.io/sites/
