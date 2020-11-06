@@ -1,0 +1,48 @@
+language: go
+
+go:
+- 1.12
+
+addons:
+  apt:
+    packages:
+    - python-pygments
+
+env:
+  global:
+  - COMMIT_AUTHOR_EMAIL: oriol@bmauri.com
+  - ENCRYPTION_LABEL: 7adb43d426f2
+
+before_install:
+- export GOPATH=$HOME/go
+- export PATH=$PATH:$GOPATH/bin
+- export HUGO_BIN=hugo_extended_0.66.0_Linux-64bit.tar.gz
+- export GIT_TRACE_PACKET=1
+- export GIT_TRACE=1
+- export GIT_CURL_VERBOSE=1
+
+install:
+- wget https://github.com/gohugoio/hugo/releases/download/v0.66.0/$HUGO_BIN
+- tar -xvf $HUGO_BIN
+- sudo mv hugo /usr/bin/
+
+before_script:
+- mkdir $TRAVIS_BUILD_DIR/themes
+- git clone --depth 1 https://github.com/robitec/meghna-hugo.git $TRAVIS_BUILD_DIR/themes/meghna-hugo/
+
+script:
+- hugo -s $TRAVIS_BUILD_DIR
+- echo "www.robitec.es" >> $TRAVIS_BUILD_DIR/public/CNAME
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: "$GITHUB_TOKEN"
+  keep_history: true
+  on:
+    branch: master
+
+notifications:
+  slack:
+    secure: lV1zlbVbRQzia4eCGw2YqGKosouKA1hWx1REt8MAFwj/KNUeEV5RDXdzNtxhiFtfOy9r7N2tF7O1f9FpnuPnzp8mFOng1HHMOwnCG+D/eiPHpGxWO0n0a5Xa5o+AQc1SJyESv3N47pQnG/wof+xTJqi8RlFZNW+st90IVwukSs+1vBxQOqc0kD3lbOyqeRjyaj7kJD3B0DNk8jHYhkwyOYlhi3Ffwd6+SWKIR2leHu31uOJMqk0mLETv1FCYNhylP3nUVMtSWT0gOWFavXINrTiQMOFkqDJIEHJU3S+afWmvcGtoxKjhmeL0yKaiwizvXv0YOqlXN4nTqLM2BNzL91CWKnbLZ+OoCJUgwxP04IoWu09+Tbfc5v45fxqT7nD3eYdpDC9FHDem/r4tbJin5PhQMdM+Mxb3kyKNcqf+wfEQd9Nm1tHCqA+3xfVfdaqWck+hxJX8M89Ugr0FCAQhIuJF/9rfOoBDYQ/Wjy+Myl3SfzFG1DMhyCtWNgSz9iNuWTuJ0QBZhUJqJNNFdytia0UcNxSd2xD1UxZWnBPlHVyOAPtr2t0e63ik+I4QPkGoqae/M1hLfiTR7w9vO2NPTYkNVaZrX1U7ncd01VP5yb2lP1SCq8n+FhR+C3Uvgzb23vA9mdbd8fADRHjorKYlLfkMl+ULEsGN29i0o/kGXbM=
