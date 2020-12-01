@@ -10,7 +10,7 @@ addons:
 
 env:
   global:
-  - COMMIT_AUTHOR_EMAIL: oriol@bmauri.com
+  - COMMIT_AUTHOR_EMAIL: robitec@robitec.es
   - ENCRYPTION_LABEL: 7adb43d426f2
 
 before_install:

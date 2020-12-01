@@ -129,11 +129,11 @@ link = "#"
 
 [[params.social]]
 icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://youtu.be/oM80RtKOiOs"
 
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://www.linkedin.com/company/robitec-industry-solutions/"
 
 [[params.social]]
 icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
