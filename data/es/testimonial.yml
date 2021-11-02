@@ -6,21 +6,21 @@ testimonial:
   testimonial_item :
     # testimonial item loop
     - name : Jonathon Andrew
-      image : images/client/client-1.jpg
-      image_webp : images/client/client-1.webp
-      date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
-      
+      image : images/client/fedex.png
+      image_webp : images/client/fedex.png
+      date : Sept 01, 2021
+      content : Gracias por estar solucionado todos los problemas de lógistica en el Aeroport de Barcelona BCNRT.
+
     # testimonial item loop
     - name : Mark Dinn
-      image : images/client/client-2.jpg
-      image_webp : images/client/client-2.webp
-      date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
-      
+      image : images/client/repsol.jpg
+      image_webp : images/client/repsol.jpg
+      date : Feb 12, 2021
+      content : Contentos de trabajar con Robitec y su Partner de pesaje oficial de Tarragona, Mauri.
+
     # testimonial item loop
     - name : Lemos Kail
-      image : images/client/client-1.jpg
-      image_webp : images/client/client-1.webp
-      date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      image : images/client/grifols.png
+      image_webp : images/client/grifols.png
+      date : Dec 26, 2020
+      content : Hemos trabajado indirectamente con Robitec a través de Mauri y estamos contentos de decir que tenemos su software en más de 5 países.

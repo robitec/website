@@ -1,34 +1,34 @@
 ################################# Service #################################
 service:
   enable : true
-  title : Our Services
+  title : Nuestros Servicios
   service_item :
     # service item loop
-    - name : WordPress Theme
+    - name : Software Global
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+      content : Apps conectadas en todo el mundo. Servidores Privados.
+
     # service item loop
-    - name : Responsive Design
+    - name : Automatización PLC
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+      content : Consultoría para aplicaciónes PLC conectadas a Internet.
+
     # service item loop
-    - name : Media &amp; Advertisement
+    - name : Ingeniería
       icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+      content : Equipo de ingenieros industriales. Soluciones mecánicas en campo.
+
     # service item loop
-    - name : Graphic Design
+    - name : Diseño
       icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+      content : Diseñamos el producto final destinado la mejor solución a su consulta.
+
     # service item loop
-    - name : Apps Development
+    - name : Venta de Productos
       icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+      content : Departamento comercial con nuestros partners de confianza.
+
     # service item loop
     - name : Networking
       icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Telecomunicaciones y Segurirdad. Conectividad de dispositivos IoT y 5G

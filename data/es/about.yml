@@ -5,12 +5,12 @@ about:
   about_item :
   - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
     title : Trato Personal
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    content : Nuestras soluciones son adaptables, escalables y capaces de adecuarse muy fácilmente a tu filosofía y a tus procesos de negocio, ahora y en cualquier momento de su evolución.
 
   - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
     title : Profesional
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    content : Trabajamos con profesionales y marcas de confianza para garantizar el buen resultado de todos nuestros proyectos.
 
   - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
     title : Eficiente
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    content : Soluciones a medida para el cliente, escuchamos sus necesidades y le dotamos de las herramientas necesarias para dar solución a sus necesidades.

@@ -3,25 +3,25 @@ feature:
   enable : true
   image : images/about/about-business-man.jpg
   image_webp : images/about/about-business-man.webp
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
-  feature_item : 
+  title : Somos una Consultoría de Ingeniería.
+  content : "Nuestro nivel de exigencia es mayor cada día, comprometiéndonos con los retos de nuestros clientes y de sus trabajadores en campo, y ofreciendo soluciones de ingeniería a sus principales necesidades."
+  feature_item :
       # feature item loop
-    - title : SEO Optimized
+    - title : Conectividad Global
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
-      # feature item loop
-    - title : Easy Customization
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Accede a nuestros servicios desde cualquier parte del mundo.
 
       # feature item loop
-    - title : SEO Optimized
-      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
+    - title : Control
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : Monitorice y tome decisiones sobre su empresa desde el sofà de su casa.
+
       # feature item loop
-    - title : Easy Customization
+    - title : Mejoramos Rendimiento
+      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      content : Nuestra ayuda le permitirá mejorar en aspectos inimaginables
+
+      # feature item loop
+    - title : Personalización
       icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : El Contacto directo con nosotros hará que la solución se adapte a su necesidad.
