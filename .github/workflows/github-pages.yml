@@ -28,16 +28,20 @@ jobs:
           mkdir themes
           git clone --depth 1 https://github.com/robitec/$THEME.git themes/$THEME/
 
-      - name: Add CNAME
+      - name: Build Website
         run: |
           ls -la
           hugo -s .
           echo "www.robitec.es" >> public/CNAME
 
+      - name: Check
+        run: |
+          ls -la
+          ls -la public
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           branch: gh-pages
-          ssh-key: ${{ secrets.DEPLOY_PAGES }}
           folder: public
 
