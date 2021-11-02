@@ -19,7 +19,8 @@ jobs:
 
       - name: Install Hugo 🔧
         run: |
-          apt install hugo
+          sudo apt update
+          sudo apt install hugo
 
       - name: Add Theme
         run: |
