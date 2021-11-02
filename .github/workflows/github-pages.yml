@@ -8,10 +8,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     env:
-      HUGO_BIN: hugo_extended_0.66.0_Linux-64bit.tar.gz
-      TRAVIS_BUILD_DIR:
-      GOPATH: $HOME/go
-      PATH: $PATH:$GOPATH/bin
+      THEME: meghna-hugo
 
     steps:
       - name: Checkout 🛎️
@@ -28,7 +25,7 @@ jobs:
         run: |
           ls -la
           mkdir themes
-          git clone --depth 1 https://github.com/robitec/meghna-hugo.git themes/meghna-hugo/
+          git clone --depth 1 https://github.com/robitec/$THEME.git themes/$THEME/
 
       - name: Add CNAME
         run: |
