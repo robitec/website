@@ -9,8 +9,8 @@ summaryLength = "15"
 # disqus short name
 disqusShortname = "ROBITEC" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = []
-
+disableLanguages = ['en-us', 'fr-fr']
+defaultContentLanguage = 'es'
 ############################# Plugins ##########################
 # css plugins
 [[params.plugins.css]]
@@ -144,12 +144,22 @@ icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
 
+################################ Spanish Language ########################
+
+[Languages.es]
+languageName = "Es"
+languageCode = "es-es"
+contentDir = "content/spanish"
+weight = 1
+home = "Inicio"
+copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+
 ################################ English Language ########################
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
 home = "Home"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
 
@@ -158,15 +168,6 @@ copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
-weight = 2
+weight = 3
 home = "Accueil"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
-
-################################ Spanish Language ########################
-[Languages.es]
-languageName = "En"
-languageCode = "es-es"
-contentDir = "content/spanish"
-weight = 1
-home = "Inicio"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
