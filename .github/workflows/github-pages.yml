@@ -20,11 +20,9 @@ jobs:
       - name: Check go
         run: go version
 
-      - name: Install and Build 🔧
+      - name: Install Hugo 🔧
         run: |
-          wget https://github.com/gohugoio/hugo/releases/download/v0.66.0/$HUGO_BIN
-          tar -xvf $HUGO_BIN
-          sudo mv hugo /usr/bin/
+          apt install hugo
 
       - name: Add Theme
         run: |
