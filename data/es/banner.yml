@@ -4,8 +4,8 @@ banner:
   bg_image_webp : "images/backgrounds/hero-area.webp"
   bg_image : "images/backgrounds/hero-area.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Tu Solución de Ingeniería a medida"
-  content : "Consultoría de software y soluciones de ingeniería para empresas."
+  title : "Soluciones de Ingeniería"
+  content : "En Robitec damos Soluciones completas e ingeniosas adaptadas al cliente"
   button:
     enable : true
     label : "¿Qué hacemos?"

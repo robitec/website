@@ -1,13 +1,13 @@
 ################################# Default configuration ###################
 baseURL = "https://www.robitec.es"
-title = "Robitec Industry Solutions"
+title = "Robitec"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
 summaryLength = "15"
 # disqus short name
-disqusShortname = "ROBITEC" # get your shortname form here : https://disqus.com
+disqusShortname = "Mauri" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = ['en', 'fr']
 defaultContentLanguage = 'es'
@@ -85,7 +85,7 @@ weight = 7
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo.svg"
+logo = "images/logo.png"
 # Meta data
 description = ""
 author = ""
@@ -93,6 +93,10 @@ author = ""
 google_analytics_id = "" # Your ID
 # post share
 post_share = true
+
+[params.footer]
+logo = "images/grup_mauri.svg"
+link = "https://www.bmauri.com"
 
 # preloader
 [params.preloader]

@@ -2,8 +2,8 @@
 contact:
   enable : true
   title : Contacta
-  subtitle : Detailles
-  content : Para cualquier consulta o propuesta no dude en mandar un mail.
+  subtitle : Europa
+  content : Tarragona, Bascules Mauri, Grup Mauri .
 
   # Contact details
   contact_list:
@@ -17,9 +17,9 @@ contact:
   # Contact form
   contact_form:
     enable : true
-    form_action : "#" #contact form works with https://formspree.io
-    name : "Your Name"
-    email : "Your Email"
-    subject : "Subject"
-    message : "Message"
-    submit : "Submit"
+    form_action : https://formspree.io/f/xzbojqod #contact form works with https://formspree.io
+    name : "Empresa"
+    email : "Email"
+    subject : "Títol"
+    message : "Missatge"
+    submit : "Enviar"

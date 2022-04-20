@@ -3,7 +3,7 @@ feature:
   enable : true
   image : images/about/about-business-man.jpg
   image_webp : images/about/about-business-man.webp
-  title : Somos una Consultoría de Ingeniería.
+  title : Escuchamos y trabajamos con el cliente.
   content : "Nuestro nivel de exigencia es mayor cada día, comprometiéndonos con los retos de nuestros clientes y de sus trabajadores en campo, y ofreciendo soluciones de ingeniería a sus principales necesidades."
   feature_item :
       # feature item loop

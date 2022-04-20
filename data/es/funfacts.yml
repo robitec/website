@@ -5,21 +5,25 @@ funfacts:
   bg_image_webp : "images/backgrounds/bg-white-wall.webp"
   counter_item:
     # counter item loop
-    - title : "Happy Clients"
-      icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
+    - title : "ALIMENTACIÓN"
+      icon : "ti-shopping-cart" # themify icon pack : https://themify.me/themify-icons
       count : "320"
-    
+      bg_image: "images/blog/nuts.jpg"
+
     # counter item loop
-    - title : "Projects completed"
-      icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
+    - title : "PAQUETERÍA"
+      icon : "ti-package" # themify icon pack : https://themify.me/themify-icons
       count : "350"
-    
+      bg_image: "images/blog/package.jpg"
+
     # counter item loop
-    - title : "Positive feedback"
-      icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
+    - title : "QUÍMICA"
+      icon : "ti-panel" # themify icon pack : https://themify.me/themify-icons
       count : "158"
-    
+      bg_image: "images/blog/plastic.jpg"
+
     # counter item loop
-    - title : "Cups of Coffee"
-      icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+    - title : "FARMACÉUTICAS"
+      icon : "ti-heart" # themify icon pack : https://themify.me/themify-icons
       count : "250"
+      bg_image: "images/blog/pharmac.jpg"
