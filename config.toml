@@ -6,11 +6,14 @@ theme = "meghna-hugo"
 paginate = "6"
 # post excerpt
 summaryLength = "15"
-# disqus short name
-disqusShortname = "Mauri" # get your shortname form here : https://disqus.com
+
 # disable language
 disableLanguages = ['en', 'fr']
 defaultContentLanguage = 'es'
+
+[markup.goldmark.renderer]
+unsafe= true
+
 ############################# Plugins ##########################
 # css plugins
 [[params.plugins.css]]
@@ -65,17 +68,17 @@ weight = 2
 # url = "team"
 # weight = 4
 
-# [[menu.main]]
+[[menu.main]]
 # name = "pricing"
 # pre = "#"
 # url = "pricing"
 # weight = 5
 
-# [[menu.main]]
-# name = "blog"
+[[menu.main]]
+name = "Empresa"
 # pre = "#"
-# url = "blog"
-# weight = 6
+url = "author"
+weight = 6
 
 [[menu.main]]
 name = "Contacto"
@@ -92,7 +95,7 @@ author = ""
 # Google Analytics
 google_analytics_id = "" # Your ID
 # post share
-post_share = true
+post_share = false
 
 [params.footer]
 logo = "images/grup_mauri.svg"
