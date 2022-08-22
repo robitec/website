@@ -1,7 +1,7 @@
 ---
-title: "Mark Dinn"
+title: "Pedro Monteagudo"
 image: ""
-email: "email2@example.org"
+email: "soporte@robitec.es"
 social:
   - icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons
     link : "#"

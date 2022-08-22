@@ -77,7 +77,7 @@ weight = 2
 [[menu.main]]
 name = "Empresa"
 # pre = "#"
-url = "author"
+url = "team"
 weight = 6
 
 [[menu.main]]
