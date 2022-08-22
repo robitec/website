@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teams on Robitec</title>
+    <link>https://www.robitec.es/team/</link>
+    <description>Recent content in Teams on Robitec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>Copyright &amp;copy; 2020 Designed by Themefisher</copyright>
+    
+	<atom:link href="https://www.robitec.es/team/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mark Dinn</title>
+      <link>https://www.robitec.es/team/german-mauri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.robitec.es/team/german-mauri/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
+    </item>
+    
+    <item>
+      <title>Oriol Legarre</title>
+      <link>https://www.robitec.es/team/oriol-legarre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.robitec.es/team/oriol-legarre/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
+    </item>
+    
+    <item>
+      <title>Oriol Mauri</title>
+      <link>https://www.robitec.es/team/oriol-mauri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.robitec.es/team/oriol-mauri/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
+    </item>
+    
+    <item>
+      <title>Pedro Monteagudo</title>
+      <link>https://www.robitec.es/team/pedro-monteagudo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.robitec.es/team/pedro-monteagudo/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
+    </item>
+    
+  </channel>
+</rss>

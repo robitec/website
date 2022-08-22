@@ -33,23 +33,31 @@
   </url>
   
   <url>
-    <loc>https://www.robitec.es/author/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.robitec.es/categories/</loc>
   </url>
   
   <url>
-    <loc>https://www.robitec.es/author/john-doe/</loc>
+    <loc>https://www.robitec.es/team/german-mauri/</loc>
   </url>
   
   <url>
-    <loc>https://www.robitec.es/author/mark-dinn/</loc>
+    <loc>https://www.robitec.es/team/oriol-legarre/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.robitec.es/team/oriol-mauri/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.robitec.es/team/pedro-monteagudo/</loc>
   </url>
   
   <url>
     <loc>https://www.robitec.es/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.robitec.es/team/</loc>
   </url>
   
 </urlset>

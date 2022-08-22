@@ -49,20 +49,38 @@
     </item>
     
     <item>
-      <title>John Doe</title>
-      <link>https://www.robitec.es/author/john-doe/</link>
+      <title>Mark Dinn</title>
+      <link>https://www.robitec.es/team/german-mauri/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.robitec.es/author/john-doe/</guid>
+      <guid>https://www.robitec.es/team/german-mauri/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
     </item>
     
     <item>
-      <title>Mark Dinn</title>
-      <link>https://www.robitec.es/author/mark-dinn/</link>
+      <title>Oriol Legarre</title>
+      <link>https://www.robitec.es/team/oriol-legarre/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.robitec.es/author/mark-dinn/</guid>
+      <guid>https://www.robitec.es/team/oriol-legarre/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
+    </item>
+    
+    <item>
+      <title>Oriol Mauri</title>
+      <link>https://www.robitec.es/team/oriol-mauri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.robitec.es/team/oriol-mauri/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
+    </item>
+    
+    <item>
+      <title>Pedro Monteagudo</title>
+      <link>https://www.robitec.es/team/pedro-monteagudo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.robitec.es/team/pedro-monteagudo/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
     </item>
     
