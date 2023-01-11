@@ -6,10 +6,6 @@
     <description>Recent content in Categories on Robitec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>Copyright &amp;copy; 2020 Designed by Themefisher</copyright>
-    
-	<atom:link href="https://www.robitec.es/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Copyright &amp;copy; 2020 Designed by Themefisher</copyright><atom:link href="https://www.robitec.es/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
