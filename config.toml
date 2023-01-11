@@ -75,9 +75,9 @@ weight = 2
 # weight = 5
 
 [[menu.main]]
-name = "Empresa"
+name = "Proyectos"
 # pre = "#"
-url = "team"
+url = "blog"
 weight = 6
 
 [[menu.main]]
